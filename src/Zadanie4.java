@@ -8,7 +8,7 @@ public class Zadanie4 {
         int wartosc1 = Math.max(x,y);
         int maxValue = Math.max(wartosc1,z);
 
-                for (int i = 0; i<=maxValue;i++) {
+                for (int i = 1; i<=maxValue;i++) {
                     if (i <= maxValue - x) {
                         System.out.print("   ");
                     } else {
